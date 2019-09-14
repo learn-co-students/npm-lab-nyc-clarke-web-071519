@@ -1,0 +1,29 @@
+{
+  "name": "npm-lab-nyc-clarke-web-071519",
+  "version": "1.0.0",
+  "description": "creating json",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyoeun93/npm-lab-nyc-clarke-web-071519.git"
+  },
+  "keywords": [
+    "hyo"
+  ],
+  "author": "hyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyoeun93/npm-lab-nyc-clarke-web-071519/issues"
+  },
+  "homepage": "https://github.com/hyoeun93/npm-lab-nyc-clarke-web-071519#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
