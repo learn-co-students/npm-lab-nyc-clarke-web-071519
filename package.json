@@ -1,0 +1,26 @@
+{
+  "name": "npm-lab-nyc-clarke-web-071519",
+  "version": "1.0.0",
+  "description": "A live example of using the npm package manager",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valentinowong/npm-lab-nyc-clarke-web-071519.git"
+  },
+  "author": "valentino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valentinowong/npm-lab-nyc-clarke-web-071519/issues"
+  },
+  "homepage": "https://github.com/valentinowong/npm-lab-nyc-clarke-web-071519#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
